@@ -45,11 +45,9 @@ sup {
 .swiper-container{
  text-align: center;
 }
-.swiper-container img{
-    width:auto;
-    height:400px;
+.swiper-slide img{
+    width:100vw;
 }
-
 /*swiper部分の画像の調節ここまで*/
 
 .recommend{
