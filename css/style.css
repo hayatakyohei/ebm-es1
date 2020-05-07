@@ -1,0 +1,411 @@
+/*共通部分*/
+a{
+    text-decoration:none;
+}
+li{
+    list-style:none;
+}
+*{
+    box-sizing:border-box;
+}
+.container{
+    max-width:750px;
+}
+h2{
+    font-family:'Hannari','Noto Serif JP', serif;
+    font-size: 24px;
+    color:#727171;
+    margin-bottom: 20px;
+    line-height:1.6em;
+    margin-top: 10px;
+}
+img{
+    width: 100%;
+}
+
+.item>div:first-child img{
+    width:auto;
+    height:42vh;
+}
+
+/*resetcssで消えた上付き文字の修正*/
+sup {
+    vertical-align:top;
+    font-size:large;
+    }
+/*修正ここまで*/
+
+/*共通部分ここまで*/
+
+
+
+
+
+
+
+
+
+/*スマホ画面*/
+/*ヘッダー*/
+
+/*swiper部分の画像の調節*/
+.swiper-container{
+ text-align: center;
+}
+.swiper-container img{
+    width:auto;
+    height:400px;
+}
+.recommend{
+    padding-left: 30px;
+    margin-top: 50px;
+}
+.recommend ul{
+    margin-bottom: 90px;
+}
+header p{
+    font-size: 25px;
+    font-weight: bold;
+    border-bottom:1px solid #4C3D3D;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    width: 83vw;
+}
+.recommend li{
+    font-size: 17px;
+    line-height:1.7em;
+}
+.pararax{
+    margin-top: 40px;
+    padding: 0 20px;
+}
+.pararax1{
+    margin-top: 10px;
+    padding: 0 20px;
+}
+.pararax1 h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+    line-height:1.5em;
+}
+.pararax1 p{
+    font-size: 17px;
+    line-height:1.8em;
+    margin-bottom: 20px;
+}
+.step{
+    text-align: center;
+}
+.step li{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.background{
+    background-color:#F19CA7;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:#fff;
+    width: 25vw;
+    text-align: center;
+    border-radius:5px;
+    margin:0 auto;
+    margin-bottom:20px!important;
+}
+
+.step1{
+    width: 160px;
+    height:160px;
+    border-radius:80px;
+    background-color:#EEEDED;
+    margin:0 auto;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    margin-top: 40px;
+}
+.product-step{
+    color:#D68F41;
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+.product-explain{
+    font-size: 30px;
+    color:#727171;
+}
+#step{
+    padding:0 20px;
+}
+#step>p{
+    font-size: 17px;
+    line-height:1.8em;
+}
+.item>div:nth-of-type(1){
+    text-align: center;
+    margin-top: 20px;
+}
+.item>div:nth-of-type(1) p{
+    font-size: 17px;
+    color:#D68F41;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.texture1 p:first-child{
+    color:#D68F41;
+    line-height:1.8em;
+}
+.texture1 p:last-child{
+    font-size: 17px;
+    line-height:1.8em;
+    width: 60vw;
+}
+.component,
+.component1{
+    display: flex;
+}
+.component img{
+    display: block;
+    width:20vw;
+    height:10vh;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.item>div:nth-of-type(3){
+    margin-top: 20px;
+    width: 90vw;
+    border-bottom:1px dotted #D68F41;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.component1 img{
+    display: block;
+    width:20vw;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.item>p{
+    font-size: 17px;
+    line-height:1.8em;
+    margin-bottom: 30px;
+}
+.method>div{
+    text-align: center;
+}
+.method>div>p{
+    font-size: 17px;
+    padding: 10px;
+    background-color:#E8E8EA;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius:15px;
+}
+.method li,
+.method>p{
+    font-size: 17px;
+    line-height:1.8em;
+    margin-bottom: 10px;
+}
+.method img{
+    width: 30vw;
+}
+.method li:nth-child(2n){
+    text-align: center;
+}
+.method{
+    margin-bottom: 40px;
+}
+.point li{
+    font-size: 17px;
+    line-height:1.8em;
+}
+.point li:first-child{
+    text-align: center;
+}
+.point li:first-child p{
+    padding: 10px;
+    background-color:#E8E8EA;
+    display: inline-block;
+    border-radius:15px;
+    margin-bottom: 15px;
+}
+.name{
+    margin-top: 50px;
+    font-size: 24px;
+    color:#D68F41;
+    margin-bottom: 10px;
+}
+.price p:first-child{
+    font-size: 17px;
+    color:#D68F41;
+    margin-bottom: 10px;
+}
+.price p:last-child{
+    margin-bottom: 20px;
+}
+.name-price{
+    margin-bottom: 90px;
+}
+.name-price>p:last-child{
+    font-size: 14px;
+    line-height:1.4em;
+}
+.component2 img{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.method1 img{
+    width: 60vw;
+}
+.hundred{
+    font-size: 17px;
+    color: #D68F41;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.massage{
+    font-size: 24px;
+    color: #D68F41;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.ohuro li:nth-child(n+2),.neck li:nth-child(n+2){
+    display: flex;
+    margin-bottom: 20px;
+}
+.ohuro-massage,.neck-massage{
+    display: block;
+    width: 50vw;
+}
+.ohuro li>p:nth-child(2),.neck li>p:nth-child(2){
+    width: 43vw;
+    font-size: 17px;
+    line-height: 1.8em;
+    margin-top: 25px;
+}
+.ohuro div,.neck div{
+    color:#BD9D63;
+    font-size: 17px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.neck li:first-child{
+    margin-top: 60px;
+}
+main>p:last-child{
+    margin-top: 10px;
+    line-height:1.5em;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.point{
+    margin: 0 20px 40px 20px;
+}
+
+/*ここからパララックス*/
+.pararax{
+    transform:translateX(-50px);/* 最初は元の位置より左にずらしておく */
+    opacity:0;  /* 最初は非表示にしておく */
+    transition:opacity 2s,transform 3s;/* 透明度と位置を設定 */
+}
+.pararax1{
+    transform:translate(0,0);/* 最初は元の位置より右にずらしておく */
+    opacity:0;  /* 最初は非表示にしておく */
+    transition:opacity 2s,transform 3s;/* 透明度と位置を設定 */
+}
+.fadein{
+    opacity:1;/* 表示させる */
+    transform:translateX(-1px); /* 位置を最初の位置に戻す */
+}
+.move{/*説明文に背景色がある*/
+    opacity:1;/* 表示させる */
+    transform:translate(-20px, 0); /* 位置を最初の位置に戻す */
+    margin-left: 30px;
+    padding: 20px;
+}
+.background-color{
+    
+    padding: 10px;
+}
+.move1{/*説明文に背景色がない*/
+    opacity:1;/* 表示させる */
+    transform:translate(-20px, 0); /* 位置を最初の位置に戻す */
+    margin-left: 40px;
+}
+/*パララックスここまで*/
+
+
+.step-4{
+  width: 80vw!important;
+  height:auto!important;
+}
+.item>div>p{
+    margin-top: 30px;
+}
+#item-list img{
+    width: auto;
+    height:20vh;
+    margin:0 auto;
+    display: block;
+}
+#item-list{
+    text-align: center;
+    margin: 60px 0;
+}
+#item-list h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.list{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:flex-end;
+}
+.warning{
+    width: auto!important;
+    height:10vh!important;
+    display: block;
+    margin-top: 20px;
+}
+.list p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration:underline;
+}
+.list1 p:nth-of-type(1),
+.list2 p:nth-of-type(1),
+.list3 p:nth-of-type(1),
+.list4 p:nth-of-type(1)
+{
+    color:#0a0a0a;
+    margin-left: 5px;
+}
+.list a{
+    font-size: 12px;
+}
+
+.list1,.list2,
+.list3,.list4{
+    width: 50vw; 
+}
+
+
+
+
+/*ヘッダーのロゴ*/
+.title{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.title img{
+    display: block;
+    width: 90px;
+    height: 90px;
+}
+.logo p{
+    border:none;
+    width: 60vw;
+}
