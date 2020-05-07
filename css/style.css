@@ -38,13 +38,6 @@ sup {
 /*共通部分ここまで*/
 
 
-
-
-
-
-
-
-
 /*スマホ画面*/
 /*ヘッダー*/
 
@@ -56,6 +49,9 @@ sup {
     width:auto;
     height:400px;
 }
+
+/*swiper部分の画像の調節ここまで*/
+
 .recommend{
     padding-left: 30px;
     margin-top: 50px;
@@ -390,6 +386,30 @@ main>p:last-child{
 .list3,.list4{
     width: 50vw; 
 }
+
+
+/*ここから購入ボタン*/
+#order1,#order2,#order3,#order4{
+    height: 10vh;
+    line-height: 10vh;
+    background-color: rgba(7, 186, 61,1);
+    text-align: center;
+    color: #fff;
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-size: 1.5em;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-shadow: 0 1px 8px rgb(0,0,1);
+    transition: 0.8s;
+}
+#order1:hover{
+    opacity:0.9;
+    transition-duration: 0.4s;
+    background-color:rgba(7, 186, 61,0.9);
+}
+/*ここまで購入ボタン*/
 
 
 
