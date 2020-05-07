@@ -1,487 +1,441 @@
-<!doctype html>
-<html lang="ja">
-  <head>
-    <!--メディアクエリ-->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!--reset.css-->
-    <link rel="stylesheet" href="css/reset.css">
-    <!--css-->
-    <link href="css/style.css" rel="stylesheet" type="text/css">
-    <!--fontawesome-->
-    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
-    <!--webフォント-->
-    <link href="https://fonts.googleapis.com/earlyaccess/hannari.css" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap" rel="stylesheet">
-    <!--jQuery-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script type="text/javascript" src="js/common.js"></script>
-    <!--swiper-->
-    <link rel="stylesheet" href="js/swiper.css">
-    <script src="js/swiper.js"></script>
-    <title>ES</title>
-  </head>
-  <body>
-    <header>
-      <div class="container">
-        <div class="title">
-          <img src="images/header.jpg" alt="">
-          <div class="logo">
-              <p>Future Generation</p>
-              <p>Hearty Milky Snow</p>
-          </div><!--/.logo-->
-        </div><!--/.title-->
-        <div class="swiper-container">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide"><img src="images/swiper1.jpg" alt=""></div>
-            <div class="swiper-slide"><img src="images/swiper2.jpg" alt=""></div>
-          </div>
-          <div class="swiper-button-prev"></div>
-          <div class="swiper-button-next"></div>
-        </div><!--/.swiper-container-->
-        <div class="recommend">
-          <p>こんな方に</p>
-          <ul>
-            <li>□ 乾燥による肌トラブルが気になる</li>
-            <li>□ みずみずしいふっくら肌になりたい</li>
-            <li>□ 毛穴までクリアに保ちたい</li>
-            <li>□ 年齢肌を引き締めたい</li>
-            <li>□ 肌の透明感を高めたい</li>
-          </ul>
-        </div><!--/.recommend-->
-      </div><!--/.container-->
-    </header>
-    <main>
-      <div class="container">
-        <section id="explain">
-          <div class="pararax">
-            <h2>みずみずしくふっくらとした肌へ導くロングセラーシリーズ</h2>
-          </div><!--/.pararax-->
-          <div class="pararax1">
-            <p>「手」を通して伝わる温もりと、イービーエム独自の天然活性水、
-              植物・大地・海3つのエネルギーで、
-              肌に活力を吹き込むスキンケアシリーズ。
-              毎日のスキンケアで、まるで温泉に入ったような、
-              ふっくらとして血行の良い「エナジースキン」を実現します。
-              進化を続けながら長年愛されてきた、
-              基礎化粧品イービーエムのロングセラーです。
-            </p>
-            <img src="images/main.jpg" alt="">
-          </div><!--/.pararax1-->
-          <div class="pararax">
-            <h2>トータルで使うことで美しさの可能性を引き出す</h2>
-          </div><!--/.pararax-->
-          <div class="pararax1">
-            <p>
-              トータルで使うことでステップごとの機能をしっかりと発揮することができ、
-              肌を守流力も高まります。
-            </p>
-            <ul class="step">
-              <li class="background">落とす</li>
-              <li>肌をいたわりながら不要なものを落とす</li>
-              <li><i class="fas fa-chevron-down fa-2x"></i></li>
-              <li class="background">洗う</li>
-              <li>汚れをすっきり落とし毛穴を引き締める</li>
-              <li><i class="fas fa-chevron-down fa-2x"></i></li>
-              <li class="background">うるおす</li>
-              <li>角質層の奥までうるおいを届ける</li>
-              <li><i class="fas fa-chevron-down fa-2x"></i></li>
-              <li class="background">守る</li>
-              <li>美容成分の力で引き締まった弾力肌へ</li>
-            </ul><!--/.step-->
-          </div><!--/.pararax1-->
-          <div class="pararax">
-            <h2>温泉上がりのようなふっくら美肌へ</h2>
-          </div><!--/.pararax-->
-          <div class="pararax1">
-            <p>
-              写真は時間の経過とともにサーモグラフィカメラで顔の表面温度をとらえたものです。
-              EBM ESスキンケアクリームSを顔や首にマッサージするようにすり込むと、
-              肌体温が上がっているのがわかります。
-              配合されたトルマリンなどの天然鉱石の力とマッサージ効果で温められた肌は、
-              ハリと透明感が増し、すこやかな肌を育む力も高まります。
-            </p>
-            <img src="images/main1.jpg">
-          </div><!--/.pararax1-->
-        </section><!--/#explain-->
-        <section id="item-list">
-          <h2>商品紹介</h2>
-          <div class="list">
-            <div class="list1">
-              <a href="#list1"><img src="images/step1.jpg" alt=""></a>    
-              <a href="#list1"><p>EBM ES オイルクレンジング</p></a>       
-              <a href="#list1"><p>詳しく見る</p></a>
-            </div><!--/.list1-->
-            <div class="list2">
-              <a href="#list2"><img class="warning1" src="images/step2.jpg" alt=""></a> 
-              <a href="#list2"><p>EBM ES ウォッシュ</p></a> 
-              <a href="#list2"><p>詳しく見る</p></a>  
-            </div><!--/.list2-->
-            <div class="list3">
-              <a href="#list3"><img src="images/step3.jpg" alt=""></a> 
-              <a href="#list3"><p>EBM ES エッセンスローションS</p></a>
-              <a href="#list3"><p>詳しく見る</p></a> 
-            </div><!--/.list3-->
-            <div class="list4">
-              <a href="#list4"><img class="warning" src="images/step4.jpg" alt=""></a> 
-              <a href="#list3"><p>EBM ESスキンクリームS</p></a>
-              <a href="#list4"><p>詳しく見る</p></a> 
-            </div><!--/.list4-->
-          </div><!--/.list-->
-        </section><!--/#item-list-->
-        <section id="step">
-          <div class="step1 pararax">
-            <p class="product-step" id="list1">STEP1</p>
-            <p class="product-explain">落とす</p>
-          </div><!--/.step1-->
-          <h2 class="pararax">オイルですっきり落とす素肌うるおうクレンジング</h2>
-          <p class="pararax1">
-            <ruby><rb>γ</rb><rt>ガンマ</rt></ruby>-リノレン酸含有油を含む17種類の美容オイルを配合。
-            ベタつかずにすっきりと毛穴の奥のメイクや汚れを落として、
-            自慢したくなる素肌に。さわやかなフローラルの香り。
-          </p>
-          <div class="item">
-            <div ><img src="images/step1.jpg" alt=""></div>
-            <div>
-              <p><主な美容成分></p>
-            </div>
-            <div class="component">
-              <div class="texture1">
-                <p>
-                  <ruby><rb>γ</rb><rt>ガンマ</rt></ruby>-リノレン酸含有油
-                  <br>(ムコールシルシネロイデス油)
-                </p>
-                <p>肌に栄養を与え、生き生きした肌へ導く整肌成分</p>
-              </div><!--/.texture1-->
-              <img src="images/step1-1.jpg" alt="">
-            </div><!--/.component-->
-            <div class="component1">
-              <div class="texture1">
-                <p>
-                  ローヤルゼリーエキス
-                </p>
-                <p>40種類以上の栄養素がうるおいを高める</p>
-              </div><!--/.texture1-->
-              <img src="images/step1-2.jpg" alt="">
-            </div><!--/.component-->
-            <p>
-              その他、肌を柔らかく保つスクラワンや、アボカド油、コメ胚芽油、アルガンオイルを配合。
-            </p>
-          </div><!--/.item-->
-          <div class="method">
-            <div><p>ご使用方法</p></div>
-            <ul>
-              <li>1.手のひらに3〜4プッシュ程度を出します。
-                手と顔が乾いた状態でお使いください。
-              </li>
-              <li><img src="images/step1-3.jpg" alt=""></li>
-              <li>
-                2.やさしくマッサージするようにメイクとなじませた後、
-                水またはぬるま湯で洗い流してください。
-              </li>
-              <li><img src="images/step1-4.jpg" alt=""></li>
-            </ul>
-          </div><!--/.method-->
-          <div class="point">
-            <ul>
-              <li><p>ご使用のポイント</p></li>
-              <li>
-                たっぷりのクレンジングを使うことで肌にやさしく、毛穴につまった汚れを
-                ジュワッと浮かしだします。
-              </li>
-            </ul>
-          </div><!--/.point-->
-          <div class="name-price">
-            <p class="name">EBM ESオイルクレンジング</p><!--/.name-->
-            <div class="price">
-              <p>150mL 4,400円(税込)</p>
-              <p>約2.5ヶ月分(1日1回使用の場合)</p>
-            </div><!--/.price-->
-            <div id="order1"><a href="https://shopebm.com/index.php/products/detail/146">ご購入はこちらから</a></div>
-            <p>成分配合：パルミチン酸エチルヘキシル、ミネラルオイル、トリイソステアリン酸PEG-20グリセリル、
-              シクロペンタシロキサン、ヤシ油脂肪酸PEG-7グリセリル、トコフェロール、ヒマワリ種子油、
-              スクワラン、オレンジ油、ニオイテンジクアオイ油、オリーブ果実油、アボカド油、ホホバ種子油、
-              マカデミア種子油、ベルガモット果実油、ダマスクバラ花油、イランイラン花油、ヤシ油、コメ胚芽油、アルガニアスピノサ核油、
-              ラウロイルグルタミン酸ジ(フィトステリル/オクチルドデシル)、ムコールシルシネロイデス油、
-              カニナバラ果実油、ローヤルゼリーエキス、ジパルミチン酸アスコルビル、ラウロイルグルタミン酸ジオクチルドデセス-2、水
-            </p>
-          </div><!--/.name-price-->
-          <div class="step1 pararax">
-            <p class="product-step" id="list2">STEP2</p>
-            <p class="product-explain">洗う</p>
-          </div><!--/.step1-->
-          <h2 class="pararax">肌フローラ<sup>※</sup>に着目した濃密泡の新洗顔</h2>
-          <p class="pararax1">
-            肌をすこやかに保つ鍵、肌フローラ<sup>※</sup>のバランスに着目した洗顔料。
-            弾力のある濃密な泡が毛穴の奥までしっかり届いて、
-            しっとりと洗いながら余分な角質を落とし、毛穴の目立たない肌に。
-          </p>
-          <p class="pararax1">
-            ※肌フローラとは、肌に棲む常在菌の集団のことです。
-            フローラのバランスが良好であれば肌はすこやかに美しく保たれやすいと言われています。
-          </p>
-          <div class="item">
-            <div><img src="images/step2.jpg" alt=""></div>
-            <div>
-              <p><主な美容成分></p>
-            </div>
-            <div class="component component1">
-              <div class="texture1">
-                <p>オタネニンジン根エキス</p>
-                <p>ハリのあるすこやかな肌に</p>
-              </div><!--/.texture1-->
-              <img src="images/step2-1.jpg" alt="">
-            </div><!--/.component-->
-            <div class="component component1">
-              <div class="texture1">
-                <p>
-                  ローヤルゼリーエキス
-                </p>
-                <p>40種類以上の栄養素がうるおいを高める</p>
-              </div><!--/.texture1-->
-              <img src="images/step2-2.jpg" alt="">
-            </div><!--/.component-->
-            <p>
-              その他、肌を柔らかく保つスクラワンや、アボカド油、コメ胚芽油、アルガンオイルを配合。
-            </p>
-          </div><!--/.item-->
-          <div class="method">
-            <div><p>ご使用方法</p></div>
-            <ul>
-              <li>1.クレンジング後清潔な手のひらに適量とり、両手または泡立てネットで泡立てます。
-              </li>
-              <li><img src="images/step2-3.jpg" alt=""></li>
-              <li>
-                2.泡を転がすようにやさしく洗った後、水またはぬるま湯で丁寧に洗い流します。
-              </li>
-              <li><img src="images/step2-4.jpg" alt=""></li>
-            </ul>
-          </div><!--/.method-->
-          <div class="point">
-            <ul>
-              <li><p>ご使用のポイント</p></li>
-              <li>
-                モコモコと濃密な泡を肌の上でやさしく転がすように洗うと、よりみずみずしい洗い上がりに。
-              </li>
-            </ul>
-          </div><!--/.point-->
-          <div class="name-price">
-            <p class="name">EBM ESウォッシュ</p><!--/.name-->
-            <div class="price">
-              <p>100g 3,850円(税込)</p>
-              <p>約1.5ヶ月分</p>
-            </div><!--/.price-->
-            <div id="order2"><a href="https://shopebm.com/index.php/products/detail/148">ご購入はこちらから</a></div>
-            <p>
-              配合成分:水、ミリスチン酸、ステアリン酸、ラウリン酸、グリセリン、水酸化K、パルミチン酸、PEG-32、PEG-6、
-              ポリクオタニウム-6、ポリクオタニウム-10、グリチルリチン酸2K、オタネニンジン根エキス、ライム果汁、
-              レモン果汁、グレープフルーツ果実エキス、サンザシエキス、ナツメ果実エキス、リンゴ果実エキス、エブリコエキス、
-              ムクロジ果皮エキス、エンテロカッカスフェカリス、ココイルグルタミン酸Na、EDTA-2Na、クエン酸、フェノキシエタノール、BG
-            </p>
-          </div><!--/.name-price-->
-          <div class="step1 pararax">
-            <p class="product-step" id="list3">STEP3</p>
-            <p class="product-explain">うるおす</p>
-          </div><!--/.step1-->
-          <h2 class="pararax">とろけるように肌になじむ美容液のようなローション</h2>
-          <p class="pararax1">
-            厳選した保湿成分と独自の天然活性水がうるおいと透明感のある肌へ導きます。
-            とろみのある贅沢な一滴が、
-            うるおいの低下しやすい大人肌もやさしくサポート。
-          </p>
-          <div class="item">
-            <div><img src="images/step3.jpg" alt=""></div>
-            <div>
-              <p><主な美容成分></p>
-            </div>
-            <div class="component component2">
-              <div class="texture1">
-                <p>トルマリン</p>
-                <p>ミネラル成分が肌を引き締める</p>
-              </div><!--/.texture1-->
-              <img src="images/step3-2.jpg" alt="">
-            </div><!--/.component-->
-            <div class="component component1">
-              <div class="texture1">
-                <p>レスベラトロール(加水分解酵母エキス)</p>
-                <p>肌年齢をしなやかに保つ</p>
-              </div><!--/.texture1-->
-              <img src="images/step3-3.jpg" alt="">
-            </div><!--/.component-->
-            <p>
-              その他、肌のうるおいを保つ
-              シロキクラゲ多糖体、多彩な植物エキス、
-              肌を引き締める海藻エキスを配合
-            </p>
-          </div><!--/.item-->
-          <div class="method method1">
-            <div><p>ご使用方法</p></div>
-            <ul>
-              <li>洗顔後、水分をふき取り乾いた肌にお付けください。手のひらに適量をとり、顔全体や首にもお使いいただけます。
-              </li>
-              <li><img src="images/step3-4.jpg" alt=""></li>
-            </ul>
-          </div><!--/.method-->
-          <div class="point">
-            <ul>
-              <li><p>ご使用のポイント</p></li>
-              <li>
-                EBM ESスキンクリームSとセットで使うことで、透明感がさらにアップ。
-              </li>
-            </ul>
-          </div><!--/.point-->
-          <div class="name-price">
-            <p class="name">エッセンスローションS</p><!--/.name-->
-            <div class="price">
-              <p>100mL 7,700円(税込)</p>
-              <p>約1.5ヶ月分</p>
-            </div><!--/.price-->
-            <div id="order3"><a href="https://shopebm.com/index.php/products/detail/149">ご購入はこちらから</a></div>
-            <p>
-              配合成分水、PG、ヒアルロン酸Na、加水分解酵母エキス、グリチルリチン酸2K、スギノリ/ミツイシコンブ/ウスバアオノリエキス、
-              アロエベラ葉エキス、シロキクラゲ多糖体、(セイヨギ)エキス、トルマリン、マロニエエキス、エタノール、BG、クエン酸、
-              ポリアクリル酸Na、リン酸2Na、香料、フェノキシエタノール、メチルパラベン
-            </p>
-          </div><!--/.name-price-->
-          <div class="step1 pararax">
-            <p class="product-step" id="list4">STEP4</p>
-            <p class="product-explain">守る</p>
-          </div><!--/.step1-->
-          <h2 class="pararax">温泉上がりのようなハリと弾力のある肌に</h2>
-          <p class="pararax1">
-            ハリと弾力のある肌を実感できる、みずみずしくすこやかな素肌へ導くクリーム。まるで温泉上がりのようにふっくらとし、
-            トラブルにも負けない肌へ。ボディにも使えます。
-          </p>
-          <div class="item">
-            <div><img class="step-4" src="images/step4.jpg" alt=""></div>
-            <div>
-              <p><主な美容成分></p>
-            </div>
-            <div class="component component1">
-              <div class="texture1">
-                <p>トルマリン</p>
-                <p>肌を引き締めて、すこやかに保つ</p>
-              </div><!--/.texture1-->
-              <img src="images/step3-2.jpg" alt="">
-            </div><!--/.component-->
-            <div class="component component1">
-              <div class="texture1">
-                <p>
-                  フムスエキス
-                </p>
-                <p>ミネラルを豊富に含む整肌成分</p>
-              </div><!--/.texture1-->
-            </div><!--/.component-->
-            <p>
-              その他、保湿効果を高めるヒアルロン酸、ビタミンC誘導体、海藻エキスなど、保湿力や肌の浸透感を高める美容成分を配合。
-            </p>
-          </div><!--/.item-->
-          <div class="method">
-            <div><p>ご使用方法</p></div>
-            <ul>
-              <li>1.清潔な手のひらに、サクランボ粒大をとり、両手のひらで、軽くなじませます。
-              </li>
-              <li>
-                2.両手のひらを頬にあてて、クリームが透明になって手がすべらなくなるまで、顔全体によくすり込みます。
-              </li>
-            </ul>
-          </div><!--/.method-->
-          <div class="point">
-            <ul>
-              <li><p>ご使用のポイント</p></li>
-              <li>
-                手のひらですり込むように塗るとマッサージ効果が高まり、肌を温める作用をさらにサポート。
-              </li>
-            </ul>
-          </div><!--/.point-->
-          <div class="name-price">
-            <p class="name">EBM ESスキンクリームS</p><!--/.name-->
-            <div class="price">
-              <p>50g 6,050円(税込)</p>
-              <p>約1ヶ月分</p>
-              <div id="order4"><a href="https://shopebm.com/index.php/products/detail/147">ご購入はこちらから</a></div>
-            </div><!--/.price-->
-            <div class="name-price">
-              <p class="name">EBM ESスキンクリームS</p><!--/.name-->
-              <p class="hundred">100g 11,000円(税込)</p>
-              <p class="month">約2.5ヶ月分(1日1回使用の場合)</p>
-              <div id="order5"><a href="https://shopebm.com/index.php/products/detail/150">ご購入はこちらから</a></div>
-            </div><!--/.name-price-->
-            <p>
-              配合成分:水、ステアリン酸グリセリル(SE)、グリセリン、脂肪酸(C1-30)(コレステロール/ラノステロール)エステルズ、ヒマシ油、ソルビトール、
-              ステアリン酸、ヒアルロン酸Na、リン酸アスコルビルMg、フムスエキス、カワラヨモギ花エキス、ノイバラ果実エキス、トウキ根エキス、
-              シャクヤス根エキス、マグワ根皮、クララ根エキス、ヒバマタエキス、セタノール、グリチルリチン酸2K、スギノリ/ミツイシコンブ/ウスバアオノリエキス、
-              温泉沈殿抽出物、オタネニンジン根エキス、クズ根エキス、アロエベラ葉エキス、クロレラエキス、水溶性コラーゲン、マンダリンオレンジ果皮エキス、
-              ミツロウ、PEG-60水添ヒマシ油、テトラオレイン酸ソルベス-60、ステアレス-8、ジメチコン、トルマリン、フェノキシエタノール、メチルパラベン、
-              プロピルパラベン、BG、エタノール
-            </p>
-          </div><!--/.name-price-->
-        </section><!--/#step-->
-        <p class="massage">こんなマッサージもおすすめです</p>
-        <div class="pattern">
-          <div class="ohuro">
-            <ul>
-              <li><div>\ お風呂でマッサージ /</div></li>
-              <li>
-                <p><img class="ohuro-massage" src="images/ohuro1.jpg" alt=""></p>
-                <p>
-                  湯船の中でEBM ESスキンクリームSをのばし、
-                  顔を包み込むようにマッサージし、しばらく浸透させます。
-                </p>
-              </li>
-              <li>
-                <p><img class="ohuro-massage" src="images/ohuro2.jpg" alt=""></p>
-                <p>お風呂から上がる際、クリームを洗い流して、肌の水気をタオルで軽くふき取ります。</p>
-              </li>
-              <li>
-                <p><img class="ohuro-massage" src="images/ohuro3.jpg" alt=""></p>
-                <p>入浴後は、新たにEBM ESスキンクリームSをとり、手のひらがすべらなくなるまですり込みます。</p>
-              </li>
-            </ul>
-          </div><!--/.ohuro-->
-        </div><!--/.pattern-->
-        <div class="pattern">
-          <div class="neck">
-            <ul>
-              <li><div>\ 首・肩・首筋のマッサージ /</div></li>
-              <li>
-                <p><img class="neck-massage" src="images/neck1.jpg" alt=""></p>
-                <p>
-                  湯船の中でEBM ESスキンクリームSをのばし、
-                  顔を包み込むようにマッサージし、しばらく浸透させます。
-                </p>
-              </li>
-              <li>
-                <p><img class="neck-massage" src="images/neck2.jpg" alt=""></p>
-                <p>お風呂から上がる際、クリームを洗い流して、肌の水気をタオルで軽くふき取ります。</p>
-              </li>
-              <li>
-                <p><img class="neck-massage" src="images/neck3.jpg" alt=""></p>
-                <p>入浴後は、新たにEBM ESスキンクリームSをとり、手のひらがすべらなくなるまですり込みます。</p>
-              </li>
-            </ul>
-          </div><!--/.ohuro-->
-        </div><!--/.pattern-->
-        <p class="point">※その他、かかと、ひざ、ふくらはぎ、手など、全身のマッサージクリームとしてもお使いいただけます。</p>
-      </div><!--/.container-->
-    </main>
-    <!--ここからswiper-->
-    <script>
-      var swiper = new Swiper('.swiper-container', {
-        // ここからはオプションです。
-      navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-        },
-        loop:true,
-        autoplay: {
-        delay: 4000,
-        disableOnInteraction: false,
-      },
-      });
-    </script>
-    <!--ここまでswiper-->
-  </body>
-</html>
+/*共通部分*/
+a{
+    text-decoration:none;
+}
+li{
+    list-style:none;
+}
+*{
+    box-sizing:border-box;
+}
+.container{
+    max-width:750px;
+}
+h2{
+    font-family:'Hannari','Noto Serif JP', serif;
+    font-size: 24px;
+    color:#727171;
+    margin-bottom: 20px;
+    line-height:1.6em;
+    margin-top: 10px;
+}
+img{
+    width: 100%;
+}
+
+.item>div:first-child img{
+    width:auto;
+    height:42vh;
+}
+
+/*resetcssで消えた上付き文字の修正*/
+sup {
+    vertical-align:top;
+    font-size:large;
+    }
+/*修正ここまで*/
+
+/*共通部分ここまで*/
+
+
+/*スマホ画面*/
+/*ヘッダー*/
+
+/*swiper部分の画像の調節*/
+.swiper-container{
+ text-align: center;
+}
+.swiper-container img{
+    width:auto;
+    height:400px;
+}
+
+/*swiper部分の画像の調節ここまで*/
+
+.recommend{
+    padding-left: 30px;
+    margin-top: 50px;
+}
+.recommend ul{
+    margin-bottom: 90px;
+}
+header p{
+    font-size: 25px;
+    font-weight: bold;
+    border-bottom:1px solid #4C3D3D;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    width: 83vw;
+}
+.recommend li{
+    font-size: 17px;
+    line-height:1.7em;
+}
+.pararax{
+    margin-top: 40px;
+    padding: 0 20px;
+}
+.pararax1{
+    margin-top: 10px;
+    padding: 0 20px;
+}
+.pararax1 h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+    line-height:1.5em;
+}
+.pararax1 p{
+    font-size: 17px;
+    line-height:1.8em;
+    margin-bottom: 20px;
+}
+.step{
+    text-align: center;
+}
+.step li{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.background{
+    background-color:#F19CA7;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:#fff;
+    width: 25vw;
+    text-align: center;
+    border-radius:5px;
+    margin:0 auto;
+    margin-bottom:20px!important;
+}
+
+.step1{
+    width: 160px;
+    height:160px;
+    border-radius:80px;
+    background-color:#EEEDED;
+    margin:0 auto;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    margin-top: 40px;
+}
+.product-step{
+    color:#D68F41;
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+.product-explain{
+    font-size: 30px;
+    color:#727171;
+}
+#step{
+    padding:0 20px;
+}
+#step>p{
+    font-size: 17px;
+    line-height:1.8em;
+}
+.item>div:nth-of-type(1){
+    text-align: center;
+    margin-top: 20px;
+}
+.item>div:nth-of-type(1) p{
+    font-size: 17px;
+    color:#D68F41;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.texture1 p:first-child{
+    color:#D68F41;
+    line-height:1.8em;
+}
+.texture1 p:last-child{
+    font-size: 17px;
+    line-height:1.8em;
+    width: 60vw;
+}
+.component,
+.component1{
+    display: flex;
+}
+.component img{
+    display: block;
+    width:20vw;
+    height:10vh;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.item>div:nth-of-type(3){
+    margin-top: 20px;
+    width: 90vw;
+    border-bottom:1px dotted #D68F41;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.component1 img{
+    display: block;
+    width:20vw;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.item>p{
+    font-size: 17px;
+    line-height:1.8em;
+    margin-bottom: 30px;
+}
+.method>div{
+    text-align: center;
+}
+.method>div>p{
+    font-size: 17px;
+    padding: 10px;
+    background-color:#E8E8EA;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius:15px;
+}
+.method li,
+.method>p{
+    font-size: 17px;
+    line-height:1.8em;
+    margin-bottom: 10px;
+}
+.method img{
+    width: 30vw;
+}
+.method li:nth-child(2n){
+    text-align: center;
+}
+.method{
+    margin-bottom: 40px;
+}
+.point li{
+    font-size: 17px;
+    line-height:1.8em;
+}
+.point li:first-child{
+    text-align: center;
+}
+.point li:first-child p{
+    padding: 10px;
+    background-color:#E8E8EA;
+    display: inline-block;
+    border-radius:15px;
+    margin-bottom: 15px;
+}
+.name{
+    margin-top: 50px;
+    font-size: 24px;
+    color:#D68F41;
+    margin-bottom: 10px;
+}
+.price p:first-child{
+    font-size: 17px;
+    color:#D68F41;
+    margin-bottom: 10px;
+}
+.price p:last-child{
+    margin-bottom: 20px;
+}
+.name-price{
+    margin-bottom: 90px;
+}
+.name-price>p:last-child{
+    font-size: 14px;
+    line-height:1.4em;
+}
+.component2 img{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.method1 img{
+    width: 60vw;
+}
+.hundred{
+    font-size: 17px;
+    color: #D68F41;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.massage{
+    font-size: 24px;
+    color: #D68F41;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.ohuro li:nth-child(n+2),.neck li:nth-child(n+2){
+    display: flex;
+    margin-bottom: 20px;
+}
+.ohuro-massage,.neck-massage{
+    display: block;
+    width: 50vw;
+}
+.ohuro li>p:nth-child(2),.neck li>p:nth-child(2){
+    width: 43vw;
+    font-size: 17px;
+    line-height: 1.8em;
+    margin-top: 25px;
+}
+.ohuro div,.neck div{
+    color:#BD9D63;
+    font-size: 17px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.neck li:first-child{
+    margin-top: 60px;
+}
+main>p:last-child{
+    margin-top: 10px;
+    line-height:1.5em;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.point{
+    margin: 0 20px 40px 20px;
+}
+
+/*ここからパララックス*/
+.pararax{
+    transform:translateX(-50px);/* 最初は元の位置より左にずらしておく */
+    opacity:0;  /* 最初は非表示にしておく */
+    transition:opacity 2s,transform 3s;/* 透明度と位置を設定 */
+}
+.pararax1{
+    transform:translate(0,0);/* 最初は元の位置より右にずらしておく */
+    opacity:0;  /* 最初は非表示にしておく */
+    transition:opacity 2s,transform 3s;/* 透明度と位置を設定 */
+}
+.fadein{
+    opacity:1;/* 表示させる */
+    transform:translateX(-1px); /* 位置を最初の位置に戻す */
+}
+.move{/*説明文に背景色がある*/
+    opacity:1;/* 表示させる */
+    transform:translate(-20px, 0); /* 位置を最初の位置に戻す */
+    margin-left: 30px;
+    padding: 20px;
+}
+.background-color{
+    
+    padding: 10px;
+}
+.move1{/*説明文に背景色がない*/
+    opacity:1;/* 表示させる */
+    transform:translate(-20px, 0); /* 位置を最初の位置に戻す */
+    margin-left: 40px;
+}
+/*パララックスここまで*/
+
+
+.step-4{
+  width: 80vw!important;
+  height:auto!important;
+}
+.item>div>p{
+    margin-top: 30px;
+}
+#item-list img{
+    width: auto;
+    height:20vh;
+    margin:0 auto;
+    display: block;
+}
+#item-list{
+    text-align: center;
+    margin: 60px 0;
+}
+#item-list h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.list{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:flex-end;
+}
+.warning{
+    width: auto!important;
+    height:10vh!important;
+    display: block;
+    margin-top: 20px;
+}
+.list p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration:underline;
+}
+.list1 p:nth-of-type(1),
+.list2 p:nth-of-type(1),
+.list3 p:nth-of-type(1),
+.list4 p:nth-of-type(1)
+{
+    color:#0a0a0a;
+    margin-left: 5px;
+}
+.list a{
+    font-size: 12px;
+}
+
+.list1,.list2,
+.list3,.list4{
+    width: 50vw; 
+}
+
+
+/*ここから購入ボタン*/
+#order1,#order2,#order3,#order4,#order5{
+    height: 10vh;
+    line-height: 10vh;
+    background-color: rgba(7, 186, 61,1);
+    text-align: center;
+    color: #fff;
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-size: 1.5em;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-shadow: 0 1px 8px rgb(0,0,1);
+    transition: 0.8s;
+}
+#order1 a,#order2 a,#order3 a,#order4 a,#order5 a{
+    color: #fff;
+}
+#order1:hover,
+#order2:hover,
+#order3:hover,
+#order4:hover,
+#order5:hover{
+    opacity:0.9;
+    transition-duration: 0.4s;
+    background-color:rgba(7, 186, 61,0.9);
+}
+.name-price:nth-of-type(2){
+    margin-bottom: 30px;
+}
+/*ここまで購入ボタン*/
+
+
+
+
+/*ヘッダーのロゴ*/
+.title{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.title img{
+    display: block;
+    width: 90px;
+    height: 90px;
+}
+.logo p{
+    border:none;
+    width: 60vw;
+}
